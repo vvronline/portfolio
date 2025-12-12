@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css';
-import { FaPaperPlane, FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
+import { FaPaperPlane, FaLinkedin, FaGithub, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 
 const Contact = () => {
     return (
@@ -34,6 +34,7 @@ const Contact = () => {
                         <div className="social-links">
                             <a href="https://www.linkedin.com/in/vr-vishnu/" className="social-icon" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
                             <a href="https://github.com/vvronline" className="social-icon" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+                            <a href="https://wa.me/918089498019" className="social-icon" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
                         </div>
                     </div>
                 </div>
