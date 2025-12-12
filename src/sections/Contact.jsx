@@ -12,7 +12,7 @@ const Contact = () => {
                 </p>
 
                 <div className="contact-wrapper">
-                    <form className="contact-form glass">
+                    <form className="contact-form glass" onSubmit={(e) => e.preventDefault()}>
                         <div className="form-group">
                             <input type="text" placeholder="Your Name" required />
                         </div>
@@ -20,7 +20,7 @@ const Contact = () => {
                             <input type="email" placeholder="Your Email" required />
                         </div>
                         <div className="form-group">
-                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                            <input type="text" placeholder="Your Message" required />
                         </div>
                         <button type="submit" className="btn btn-primary submit-btn">
                             Send Message <FaPaperPlane />
