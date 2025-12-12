@@ -12,20 +12,15 @@ const Contact = () => {
                 </p>
 
                 <div className="contact-wrapper">
-                    <form className="contact-form glass" onSubmit={(e) => e.preventDefault()}>
-                        <div className="form-group">
-                            <input type="text" placeholder="Your Name" required />
-                        </div>
-                        <div className="form-group">
-                            <input type="email" placeholder="Your Email" required />
-                        </div>
-                        <div className="form-group">
-                            <input type="text" placeholder="Your Message" required />
-                        </div>
-                        <button type="submit" className="btn btn-primary submit-btn">
-                            Send Message <FaPaperPlane />
-                        </button>
-                    </form>
+                    <div className="contact-form glass" style={{ textAlign: 'center', padding: '3rem' }}>
+                        <h3 style={{ marginBottom: '1rem' }}>Send me a message</h3>
+                        <p style={{ marginBottom: '2rem', color: 'var(--text-muted)' }}>
+                            I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.
+                        </p>
+                        <a href="mailto:online.vishnu.vr@gmail.com" className="btn btn-primary submit-btn" style={{ display: 'inline-flex', justifyContent: 'center', textDecoration: 'none' }}>
+                            Send Email <FaPaperPlane />
+                        </a>
+                    </div>
 
                     <div className="contact-info">
                         <h3>Let's Connect</h3>
