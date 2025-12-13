@@ -15,7 +15,7 @@ const Hero = () => {
                         Full Stack Engineer
                     </h2>
                     <p className="hero-description">
-                        Results-driven Full Stack Engineer with 3+ years of experience in end-to-end web development, backend automation, and cloud migration.
+                        Results-driven Full Stack Engineer with 3+ years of experience in end-to-end software development, backend automation, and cloud migration.
                     </p>
 
                     <div className="hero-buttons">
