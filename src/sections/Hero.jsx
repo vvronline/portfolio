@@ -23,7 +23,7 @@ const Hero = () => {
                             View Work <FaArrowRight />
                         </a>
                         <a href="https://drive.google.com/uc?export=download&id=1xWGRVir0O9SXtc22GiL2QEHDqo1vE9gV" className="btn btn-outline" download>
-                            Download CV <FaDownload />
+                            Download Resume <FaDownload />
                         </a>
                     </div>
                 </div>
