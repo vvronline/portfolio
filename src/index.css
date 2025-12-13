@@ -4,7 +4,8 @@
   /* Colors */
   --bg-dark: #050505;
   --bg-secondary: #0a0a0a;
-  --primary: #8b5cf6; /* Violet */
+  --primary: #8b5cf6;
+  /* Violet */
   --primary-glow: rgba(139, 92, 246, 0.4);
   --accent: #cyan;
   --text-main: #ffffff;
@@ -37,6 +38,7 @@ body {
   color: var(--text-main);
   overflow-x: hidden;
   line-height: 1.6;
+  padding-top: var(--nav-height);
 }
 
 a {
@@ -84,13 +86,16 @@ button {
 ::-webkit-scrollbar {
   width: 8px;
 }
+
 ::-webkit-scrollbar-track {
   background: var(--bg-dark);
 }
+
 ::-webkit-scrollbar-thumb {
   background: var(--primary);
   border-radius: 4px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: #7c3aed;
 }
