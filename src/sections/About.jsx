@@ -19,7 +19,7 @@ const About = () => {
                     <div className="about-text glass">
                         <h3>Professional Summary</h3>
                         <p>
-                            I am a results-driven Full Stack Engineer with over 3 years of experience in designing scalable architectures and delivering enterprise-grade solutions. My expertise spans across modern web development, backend automation, and cloud infrastructure.
+                            I am a results-driven Full Stack Engineer with over 3+ years of experience in designing scalable architectures and delivering enterprise-grade solutions. My expertise spans across modern web development, backend automation, and cloud infrastructure.
                         </p>
                         <p>
                             I specialize in modernizing legacy systems, implementing CI/CD pipelines, and driving continuous delivery using AWS, Jenkins, and Docker. I am adept at working in Agile environments to enable secure, high-performance software solutions.
