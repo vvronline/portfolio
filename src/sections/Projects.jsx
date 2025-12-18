@@ -7,7 +7,6 @@ const projects = [
         title: 'Impennata',
         desc: 'A React Native web app to monitor real-time charge data and analytics.',
         tech: ['React Native', 'Web', 'Real-time Data'],
-        link: '#',
         github: 'https://github.com/vvronline/Impennata.git',
     },
     {
@@ -21,7 +20,6 @@ const projects = [
         title: 'Task Management App',
         desc: 'A sleek productivity tool for teams to manage tasks, collaborate, and track progress.',
         tech: ['React Native', 'Redux', 'Node.js'],
-        link: '#',
         github: '#'
     }
 ];
